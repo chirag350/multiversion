@@ -14,6 +14,4 @@ ENV  USER=container HOME=/home/container
 
 WORKDIR /home/container
 
-RUN echo "eula=true" > eula.txt
-
 CMD ["/bin/sh", "/entrypoint.sh"]
