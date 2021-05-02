@@ -2,7 +2,7 @@
 # By Dviih
 # dviih.technology/multiversion
 
-#!/bin/bash
+#!/bin/sh
 cd /home/container
 echo "Multi Version Beta"
 echo "By Dviih (dviih.technology/multiversion)"
