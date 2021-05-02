@@ -7,6 +7,7 @@ MAINTAINER Dviih, <dviih@dviih.email>
 ADD https://raw.githubusercontent.com/Dviih/multiversion/java8/java8.tar.gz /java8.tar.gz
 ADD https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh /entrypoint.sh
 
+RUN tar -xvf java8.tar.gz && rm java8.tar.gz
 RUN adduser --disabled-password --home /home/container container
 
 USER container
