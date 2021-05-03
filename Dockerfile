@@ -4,7 +4,7 @@
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
 
-ADD https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh /entrypoint.sh
+RUN wget https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 RUN apk update && apk add openjdk8
