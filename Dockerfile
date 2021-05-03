@@ -4,10 +4,11 @@
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
 
+RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk8
+
 RUN wget https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-RUN apk update && apk add openjdk8
 RUN adduser --disabled-password --home /home/container container
 
 USER container
