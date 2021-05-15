@@ -1,19 +1,9 @@
-# Multi Version Beta
+# Multi Version
 # By Dviih
-# dviih.technology/multiversion
+# dviih.technology/multiversion | dviih@dviih.email
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
 
-RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk8
+RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig wget
 
-RUN wget https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh
-RUN chmod +x /entrypoint.sh
-
-RUN adduser --disabled-password --home /home/container container
-
-USER container
-ENV  USER=container HOME=/home/container
-
-WORKDIR /home/container
-
-CMD ["/bin/sh", "/entrypoint.sh"]
+CMD ["/bin/ash"]
