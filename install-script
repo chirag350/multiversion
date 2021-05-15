@@ -1,0 +1,7 @@
+# Multi Versin Install Script
+# By Dviih
+# dviih.technology/multiversion
+
+mkdir /mnt/server
+cd /mnt/server
+wget https://mirror-vercel.dviih.technology/$D_VARIANT-$D_MINECRAFT_VERSION.jar
