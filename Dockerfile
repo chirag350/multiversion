@@ -1,6 +1,6 @@
-# Multi Version
+# Multi Version Release
 # By Dviih
-# dviih.technology/multiversion
+# dviih.technology/multiversion | dviih@dviih.email
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
 
