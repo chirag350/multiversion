@@ -1,4 +1,4 @@
-# Multi Version Beta
+# Multi Version Release
 # By Dviih
 # dviih.technology/multiversion
 FROM alpine:latest
