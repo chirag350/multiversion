@@ -1,4 +1,4 @@
-# Multi Version
+# MultiVersion Release InstallerImage
 # By Dviih
 # dviih.technology/multiversion | dviih@dviih.email
 FROM alpine:latest
