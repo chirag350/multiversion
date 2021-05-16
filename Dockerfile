@@ -4,7 +4,7 @@
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
 
-RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" > /etc/apk/repositories
+RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
 RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk13
 
