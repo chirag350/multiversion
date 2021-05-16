@@ -4,7 +4,7 @@
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
 
-RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk7
+RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk10
 
 RUN wget https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh
 RUN chmod +x /entrypoint.sh
