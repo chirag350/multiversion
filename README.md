@@ -16,17 +16,7 @@
 
 ## Supported Minecraft Versions
 
-- [Vanilla 1.5.2](https://github.com/Dviih/multiversion/tree/vanilla-1.5.2)
-- [Vanilla 1.7.10](https://github.com/Dviih/multiversion/tree/vanilla-1.7.10)
-- [Vanilla 1.8.8](https://github.com/Dviih/multiversion/tree/vanilla-1.8.8)
-- [Vanilla 1.14.4](https://github.com/Dviih/multiversion/tree/vanilla-1.14.4)
-- [Vanilla 1.16.5](https://github.com/Dviih/multiversion/tree/vanilla-1.16.5)
-
-- [Spigot 1.5.2](https://github.com/Dviih/multiversion/tree/spigot-1.5.2)
-- [Spigot 1.7.10](https://github.com/Dviih/multiversion/tree/spigot-1.7.10)
-- [Spigot 1.8.8](https://github.com/Dviih/multiversion/tree/spigot-1.8.8)
-- [Spigot 1.14.4](https://github.com/Dviih/multiversion/tree/spigot-1.14.4)
-- [Spigot 1.16.5](https://github.com/Dviih/multiversion/tree/spigot-1.16.5)
+Just check our mirror: https://mirror-vercel.dviih.technology
 
 ## FAQ
 
