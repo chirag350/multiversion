@@ -1,10 +1,10 @@
-# Multi Versin Entrypoint.sh
+# Multi Version Entrypoint.sh
 # By Dviih
-# dviih.technology/multiversion
+# dviih.technology/multiversion | dviih@dviih.email
 
 #!/bin/sh
 cd /home/container
-echo "Multi Version Beta"
+echo "MultiVersion"
 echo "By Dviih (dviih.technology/multiversion)"
 java -version
 MODIFIED_STARTUP=`eval echo $(echo ${STARTUP} | sed -e 's/{{/${/g' -e 's/}}/}/g')`
