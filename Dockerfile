@@ -4,7 +4,9 @@
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
 
-RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk10
+RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" > /etc/apk/repositories
+
+RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk12
 
 RUN wget https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh
 RUN chmod +x /entrypoint.sh
