@@ -1,4 +1,4 @@
-# Multi Version Entrypoint.sh
+# MultiVersion Release Entrypoint.sh
 # By Dviih
 # dviih.technology/multiversion | dviih@dviih.email
 
