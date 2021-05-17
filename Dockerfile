@@ -1,8 +1,9 @@
-# Multi Version Release
+# MultiVersion
 # By Dviih
 # dviih.technology/multiversion | dviih@dviih.email
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
+RUN echo "MultiVersion java9 docker image"
 
 RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk9
 
