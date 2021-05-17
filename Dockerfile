@@ -1,8 +1,9 @@
-# Multi Version Release
+# MultiVersion
 # By Dviih
 # dviih.technology/multiversion | dviih@dviih.email
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
+RUN echo "MultiVersion java16 docker image"
 
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
