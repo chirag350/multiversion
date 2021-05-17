@@ -1,8 +1,9 @@
-# Multi Version Release
+# MultiVersion
 # By Dviih
 # dviih.technology/multiversion | dviih@dviih.email
 FROM alpine:latest
 MAINTAINER Dviih, <dviih@dviih.email>
+RUN echo "MultiVersion java11 docker image"
 
 ADD https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh /entrypoint.sh
 
