@@ -1,9 +1,7 @@
 # MultiVersion Patch | dviih.technology/multiversion | dviih@dviih.email
 
-FROM openjdk:16-jdk-alpine
+FROM openjdk:17-jdk-alpine
 MAINTAINER Dviih, <dviih@dviih.email>
-
-RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
 RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig
 
