@@ -1,9 +1,7 @@
-# MultiVersion
-# By Dviih
-# dviih.technology/multiversion | dviih@dviih.email
-FROM alpine:latest
+# MultiVersion Patch | dviih.technology/multiversion | dviih@dviih.email
+
+FROM openjdk:13-jdk-alpine
 MAINTAINER Dviih, <dviih@dviih.email>
-RUN echo "MultiVersion java13 docker image"
 
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
