@@ -1,10 +1,9 @@
-# Multi Version Release
-# By Dviih
-# dviih.technology/multiversion | dviih@dviih.email
-FROM alpine:latest
+# MultiVersion Patch | dviih.technology/multiversion | dviih@dviih.email
+
+FROM openjdk:7-jdk-alpine
 MAINTAINER Dviih, <dviih@dviih.email>
 
-RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk7
+RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig
 
 RUN wget https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh
 RUN chmod +x /entrypoint.sh
