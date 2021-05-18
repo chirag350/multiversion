@@ -1,8 +1,7 @@
-# MultiVersion | dviih.technology/multiversion | dviih@dviih.email
+# MultiVersion Patch | dviih.technology/multiversion | dviih@dviih.email
 
 FROM openjdk:8-jdk-alpine
 MAINTAINER Dviih, <dviih@dviih.email>
-RUN echo MultiVersion java8 docker image
 
 RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig
 
