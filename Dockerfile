@@ -1,13 +1,11 @@
-# MultiVersion
-# By Dviih
-# dviih.technology/multiversion | dviih@dviih.email
-FROM alpine:latest
+# MultiVersion Patch | dviih.technology/multiversion | dviih@dviih.email
+
+FROM openjdk:15-jdk-alpine
 MAINTAINER Dviih, <dviih@dviih.email>
-RUN echo "MultiVersion java15 docker image"
 
 RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 
-RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig openjdk15
+RUN apk add --no-cache --update curl ca-certificates openssl git tar bash sqlite fontconfig
 
 RUN wget https://raw.githubusercontent.com/Dviih/multiversion/main/entrypoint.sh
 RUN chmod +x /entrypoint.sh
