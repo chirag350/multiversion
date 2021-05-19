@@ -11,8 +11,6 @@
 
 ## To do
 - Support Minecraft Bedrock
-- Support PaperSpigot, Craft Bukkit and others
-- Support For other proxies
 
 ## Supported Minecraft Versions
 
