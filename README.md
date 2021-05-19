@@ -6,7 +6,7 @@
 
 ## Features
 - Support just minecraft java servers
-- Support Spigot and Minecraft Server (Vanilla)
+- Support Vanilla, [Spigot](https://hub.spigotmc.org/stash/projects/spigot/repos/craftbukkit/browse), [CraftBukkit](https://hub.spigotmc.org/stash/projects/spigot/repos/craftbukkit/browse) & [Paper](https://github.com/PaperMC/Paper).
 - Support For [Bungeecord](https://github.com/SpigotMC/BungeeCord) and [Geyser](https://github.com/GeyserMC/Geyser)
 
 ## To do
