@@ -1,6 +1,4 @@
-# MultiVersion Release Entrypoint.sh
-# By Dviih
-# dviih.technology/multiversion | dviih@dviih.email
+# MultiVersion | dviih.technology/multiversion | dviih@dviih.email
 
 #!/bin/bash
 cd /home/container
