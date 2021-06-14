@@ -2,8 +2,7 @@
 
 #!/bin/bash
 cd /home/container
-echo "MultiVersion"
-echo "By Dviih (dviih.technology/multiversion)"
+echo "MultiVersion | dviih.technology/multiversion"
 if [[ -f "$SERVER_JARFILE" ]]
 then
     echo "You don't have a $SERVER_JARFILE please select a version on startup tab then reinstall the server."
